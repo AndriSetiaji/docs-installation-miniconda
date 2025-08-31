@@ -20,10 +20,11 @@ select version
 ## 🖥️ 2. Installation Step by Step
 
 ### Navigate to the download folder
-example location: cd ~/Downloads
+example location: 
+`cd ~/Downloads`
 
 ### Run the installer
-bash Miniconda3-latest-MacOSX-x86_64.sh
+`bash Miniconda3-latest-MacOSX-x86_64.sh`
 
 Follow the prompts:
 - Press Enter to read the license.
@@ -32,22 +33,22 @@ Follow the prompts:
 - Type yes when asked to run conda init.
 
 ### Integrate with your shell (example for zsh):
-source ~/miniconda3/bin/activate
-conda init zsh
+`source ~/miniconda3/bin/activate`
+`conda init zsh`
 
 ### Verify Installation
 Run:
-conda list
+`conda list`
 
 # 3. Basic Conda Commands
 ### Activate the base environment
-conda activate
+`conda activate`
 
 ### Create a new environment with Python 3.9
-conda create -n myenv python=3.9
+`conda create -n myenv python=3.12`
 
 ### Activate the new environment
-conda activate myenv
+`conda activate myenv`
 
 # List available environments
 conda env list
