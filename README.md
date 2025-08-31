@@ -49,6 +49,3 @@ Run:
 
 ### Activate the new environment
 `conda activate myenv`
-
-# List available environments
-conda env list
